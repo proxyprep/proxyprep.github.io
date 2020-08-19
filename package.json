@@ -1,0 +1,23 @@
+{
+  "name": "proxyprep.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proxyprep/proxyprep.github.io.git"
+  },
+  "author": "raghuvanshraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proxyprep/proxyprep.github.io/issues"
+  },
+  "homepage": "https://github.com/proxyprep/proxyprep.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
