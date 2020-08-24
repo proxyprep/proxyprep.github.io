@@ -1,14 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <!-- Meta Tags -->
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Proxy Prep</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Proxy Interview Prep</title>
 </head>
-<body>
-    Proxy Interview Prep
+
+<body id="pageTop">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-end">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#pageTop"><img src="img/proxy.png" height="70" width="70" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbar">
+                <ul class="nav navbar-nav text-right">
+                    <li>
+                        <a class="nav-link active js-scroll-trigger" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active js-scroll-trigger" href="#pricing">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active js-scroll-trigger" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active js-scroll-trigger" href="#team">The Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-lg-5">
+                    <div id="welcomeText">
+                        Welcome to Proxy Prep!
+                    </div>
+                    <div id="welcomeDescription">
+                        Preparing students for SDE interviews by providing mock interviews and detailed personal guidance.
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <img src="img/collab.png" id="collabImage">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col" id="carouselText">
+                Your interviews will be taken by <b>software engineers</b> from:
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CAROUSEL HERE -->
+
+    <div class="container" id="features">
+        <div class="row row-content">
+            <div class="col section-heading">
+                What Do You Get?
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="offset-sm-1 col-sm-4 div-center">
+                <div class="d-none d-sm-block feature-text text-align-right">
+                    Data Structures & Algorithms
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/dsa.png" class="feature-img">
+            </div>
+            <div class="col d-block d-sm-none feature-text text-align-center">
+                Data Structures & Algorithms
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-sm-6">
+                <img src="img/cv_screening.png" class="feature-img">
+            </div>
+            <div class="offset-sm-1 col-sm-4 div-center">
+                <div class="d-none d-sm-block feature-text">
+                    CV Screening & Project Discussion
+                </div>
+            </div>
+            <div class="col d-block d-sm-none feature-text text-align-center">
+                CV Screening & Project Discussion
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="offset-sm-1 col-sm-4 div-center">
+                <div class="d-none d-sm-block feature-text text-align-right">
+                    Core Subjects Including System Design
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/system_design.png" class="feature-img">
+            </div>
+            <div class="col d-block d-sm-none feature-text text-align-center">
+                Core Subjects Including System Design
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="pricing">
+        <div class="row row-content">
+            <div class="col section-heading">
+                How Can You Get It?
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="testimonials">
+        <div class="row row-content">
+            <div class="col section-heading">
+                Success Stories
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="team">
+        <div class="row row-content">
+            <div class="col section-heading">
+                Meet The Team
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery.easing/jquery.easing.min.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
+
 </html>

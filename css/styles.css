@@ -1,0 +1,126 @@
+/* Tags */
+
+body {
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* img {
+    width: 100%;
+} */
+
+
+/* Classes */
+
+.navbar {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.nav-link {
+    margin: 20px;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.div-center {
+    display: flex;
+    align-items: center;
+}
+
+.text-align-right {
+    text-align: end;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.feature-text {
+    font-size: 250%;
+}
+
+.feature-img {
+    width: 100%;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 300%;
+    font-weight: 700;
+}
+
+
+/* .nav-link {
+    display: inline;
+    padding: 100px;
+} */
+
+@media screen and (min-width: 992px) {
+    #welcomeText {
+        margin-top: 200px;
+    }
+    #collabImage {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #welcomeText {
+        margin-top: 150px;
+        text-align: center;
+    }
+    #welcomeDescription {
+        text-align: center;
+    }
+    #collabImage {
+        margin-top: 50px;
+        /* margin-bottom: 50px; */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .feature-text {
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feature-text {
+        font-size: 150%;
+    }
+}
+
+
+/* IDs */
+
+#welcomeText {
+    font-size: 300%;
+    font-weight: 700;
+}
+
+#welcomeDescription {
+    font-size: 180%;
+    font-weight: 700;
+    margin-top: 30px;
+    color: rgb(109, 107, 107);
+}
+
+#collabImage {
+    width: 100%;
+    /* margin-bottom: 50px; */
+}
+
+#carouselText {
+    text-align: center;
+    font-size: 150%;
+}
+
+#featureHeading {
+    text-align: center;
+    font-size: 300%;
+    font-weight: 700;
+}
