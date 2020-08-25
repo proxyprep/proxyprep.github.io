@@ -63,9 +63,10 @@ footer {
     text-align: center;
     font-size: 300%;
     font-weight: 700;
+    padding-top: 30px;
 }
 
-.handwritten {
+.mentor-name {
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
     font-size: 200%;
@@ -167,4 +168,8 @@ footer {
     text-align: center;
     font-size: 300%;
     font-weight: 700;
+}
+
+#contactForm {
+    margin-top: 30px;
 }
