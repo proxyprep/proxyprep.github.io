@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+footer {
+    background-color: lightgrey;
+}
+
 
 /* img {
     width: 100%;
@@ -43,8 +47,16 @@ body {
     font-size: 250%;
 }
 
+.mentor-description {
+    font-size: 120%;
+}
+
 .feature-img {
     width: 100%;
+}
+
+.mentor-img {
+    width: 80%;
 }
 
 .section-heading {
@@ -53,11 +65,38 @@ body {
     font-weight: 700;
 }
 
+.handwritten {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-size: 200%;
+}
 
-/* .nav-link {
-    display: inline;
-    padding: 100px;
-} */
+.mentor-company {
+    width: 40%;
+    margin: 5px;
+}
+
+.mentor {
+    margin-bottom: 50px;
+}
+
+.linkedin:hover {
+    color: #3b7e98;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.linkedin {
+    color: #3b5898;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
 
 @media screen and (min-width: 992px) {
     #welcomeText {
@@ -78,7 +117,6 @@ body {
     }
     #collabImage {
         margin-top: 50px;
-        /* margin-bottom: 50px; */
     }
 }
 
@@ -91,6 +129,12 @@ body {
 @media screen and (max-width: 767px) {
     .feature-text {
         font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #contactForm {
+        width: 300px;
     }
 }
 
