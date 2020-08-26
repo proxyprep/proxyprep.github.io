@@ -77,11 +77,22 @@ footer {
     margin: 5px;
 }
 
+.mentor-company-lg {
+    width: 80%;
+    margin: 5px;
+}
+
+.mentor-company-sm {
+    width: 30%;
+    margin: 5px;
+}
+
 .mentor {
     margin-bottom: 50px;
 }
 
-.linkedin:hover {
+
+/* .linkedin:hover {
     color: #3b7e98;
     -o-transition: .3s;
     -ms-transition: .3s;
@@ -97,6 +108,12 @@ footer {
     -moz-transition: .3s;
     -webkit-transition: .3s;
     transition: .3s;
+} */
+
+.companies-crawler-img {
+    width: 150px;
+    margin: 10px;
+    vertical-align: middle;
 }
 
 @media screen and (min-width: 992px) {
@@ -172,10 +189,4 @@ footer {
 
 #contactForm {
     margin-top: 30px;
-}
-
-.companies-crawler-img {
-    width: 150px;
-    margin: 10px;
-    vertical-align: middle;
 }
