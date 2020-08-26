@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Proxy Interview Prep</title>
+
+    <script type="text/javascript" src="js/crawler.js"></script>
 </head>
 
 <body id="pageTop">
@@ -73,8 +75,22 @@
         </div>
     </div>
 
-
-    <!-- CAROUSEL HERE -->
+    <div class="container">
+        <div class="marquee" id="companiesCrawler">
+            <img class="companies-crawler-img" src="img/companies/amazon.png">
+            <img class="companies-crawler-img" src="img/companies/amex.png">
+            <img class="companies-crawler-img" src="img/companies/atlassian.png">
+            <img class="companies-crawler-img" src="img/companies/citi.png">
+            <img class="companies-crawler-img" src="img/companies/google.png">
+            <img class="companies-crawler-img" src="img/companies/morgan.png">
+            <img class="companies-crawler-img" src="img/companies/publicis_sapient.png">
+            <img class="companies-crawler-img" src="img/companies/samsung.png">
+            <img class="companies-crawler-img" src="img/companies/sap.png">
+            <img class="companies-crawler-img" src="img/companies/shopee.png">
+            <img class="companies-crawler-img" src="img/companies/uber.png">
+            <img class="companies-crawler-img" src="img/companies/visa.png">
+        </div>
+    </div>
 
     <div class="container" id="features">
         <div class="row row-content">
@@ -266,6 +282,22 @@
     <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
 
     <script src="js/index.js"></script>
+    <script type="text/javascript">
+        marqueeInit({
+            uniqueid: 'companiesCrawler',
+            style: {
+                'padding': '2px',
+                'width': '100%',
+                'height': '200px'
+            },
+            inc: 2, //speed - pixel increment for each iteration of this marquee's movement
+            mouse: 'pause', //mouseover behavior ('pause' 'cursor driven' or false)
+            moveatleast: 2,
+            neutral: 150,
+            savedirection: true,
+            random: true
+        });
+    </script>
 
 </body>
 

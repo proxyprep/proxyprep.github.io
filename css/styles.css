@@ -173,3 +173,9 @@ footer {
 #contactForm {
     margin-top: 30px;
 }
+
+.companies-crawler-img {
+    width: 150px;
+    margin: 10px;
+    vertical-align: middle;
+}
