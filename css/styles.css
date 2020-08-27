@@ -47,7 +47,7 @@ footer {
     font-size: 250%;
 }
 
-.mentor-description {
+.profile-content {
     font-size: 120%;
 }
 
@@ -55,7 +55,7 @@ footer {
     width: 100%;
 }
 
-.mentor-img {
+.profile-img {
     width: 80%;
 }
 
@@ -66,10 +66,15 @@ footer {
     padding-top: 30px;
 }
 
-.mentor-name {
+.profile-name {
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
     font-size: 200%;
+}
+
+.profile-college {
+    font-size: 150%;
+    margin-bottom: 10px;
 }
 
 .mentor-company {
@@ -78,7 +83,7 @@ footer {
 }
 
 .mentor-company-lg {
-    width: 80%;
+    width: 60%;
     margin: 5px;
 }
 
@@ -87,8 +92,23 @@ footer {
     margin: 5px;
 }
 
-.mentor {
+.profile {
     margin-bottom: 50px;
+    /* height: 1000px; */
+}
+
+.carousel-item .profile-img {
+    width: 20%;
+}
+
+.testimonial-content {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 120%;
+}
+
+.carousel-inner {
+    height: 700px !important;
 }
 
 
@@ -147,6 +167,23 @@ footer {
 @media screen and (max-width: 767px) {
     .feature-text {
         font-size: 150%;
+    }
+    .carousel-item .profile-img {
+        width: 50%;
+    }
+    .carousel-inner {
+        height: 800px !important;
+    }
+    .carousel-control-next {
+        bottom: 80%;
+    }
+    .carousel-control-prev {
+        bottom: 80%;
+    }
+    .testimonial-content {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 100%;
     }
 }
 
