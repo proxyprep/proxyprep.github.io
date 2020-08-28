@@ -79,32 +79,32 @@ footer {
 
 .company {
     width: 40%;
-    margin: 5px;
+    padding: 7px 3px 0px 3px;
 }
 
 .company-lg {
-    width: 60%;
-    margin: 5px;
+    width: 50%;
+    padding: 7px 3px 0px 3px;
 }
 
 .company-sm {
     width: 30%;
-    margin: 5px;
+    padding: 7px 3px 0px 3px;
 }
 
 .company-xs {
     width: 20%;
-    margin: 5px;
+    padding: 7px 3px 0px 3px;
 }
 
 .company-xxs {
     width: 10%;
-    margin: 5px;
+    padding: 7px 3px 0px 3px;
 }
 
 .company-xxxs {
     width: 5%;
-    margin: 5px;
+    padding: 7px 3px 0px 3px;
 }
 
 .profile {
