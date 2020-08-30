@@ -282,6 +282,9 @@ section.pricing {
 
 .pricing .card {
     border: none;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    /* height: 450px; */
     border-radius: 1rem;
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.7);
@@ -300,7 +303,7 @@ section.pricing {
 
 .pricing .card-price {
     font-size: 3rem;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .pricing .card-price .period {
@@ -312,7 +315,7 @@ section.pricing {
 }
 
 .pricing .text-muted {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .pricing .btn {
@@ -326,10 +329,28 @@ section.pricing {
     /* background-color: #6C63FF; */
 }
 
+.pricing .quantity {
+    font-family: 'Bungee', cursive;
+    font-size: 500%;
+}
+
+.pricing .mock-type {
+    font-weight: 700;
+    font-size: 150%;
+}
+
 
 /* Hover Effects on Card */
 
-@media (min-width: 992px) {
+
+/* @media screen and (max-width: 1199px) {
+    .pricing .card {
+        height: auto;
+    }
+} */
+
+
+/* @media (min-width: 992px) {
     .pricing .card:hover {
         margin-top: -.25rem;
         margin-bottom: .25rem;
@@ -338,4 +359,4 @@ section.pricing {
     .pricing .card:hover .btn {
         opacity: 1;
     }
-}
+} */
