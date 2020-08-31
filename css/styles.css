@@ -122,7 +122,7 @@ section {
 }
 
 .carousel-inner {
-    height: 700px !important;
+    height: 1000px !important;
 }
 
 
@@ -151,11 +151,11 @@ section {
 }
 
 .carousel-control-next {
-    bottom: 500px;
+    bottom: 800px;
 }
 
 .carousel-control-prev {
-    bottom: 500px;
+    bottom: 800px;
 }
 
 @media screen and (min-width: 992px) {
