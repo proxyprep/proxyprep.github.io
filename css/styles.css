@@ -9,6 +9,10 @@ section.contact {
     background-color: lightgrey;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 
 /* Classes */
 
