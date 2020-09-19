@@ -72,7 +72,7 @@ section {
 .profile-name {
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
-    font-size: 200%;
+    font-size: 175%;
 }
 
 .profile-college {
@@ -125,8 +125,6 @@ section {
 }
 
 .testimonial-content {
-    /* margin-left: 200px;
-    margin-right: 200px; */
     font-size: 120%;
 }
 
