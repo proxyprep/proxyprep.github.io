@@ -26,7 +26,8 @@ section {
 }
 
 .nav-link {
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px
 }
 
 .row {
@@ -199,6 +200,10 @@ section {
 
 
 /* IDs */
+
+#navbarLogo {
+    transition: all 0.2s;
+}
 
 #welcomeText {
     font-size: 300%;
