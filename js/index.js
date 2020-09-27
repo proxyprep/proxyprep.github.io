@@ -34,4 +34,4 @@ $('#formSelectionDropdown').on('change', function() {
     console.log('f');
     var selected = $(this).children('option:selected').val();
     console.log(selected);
-})
+});
