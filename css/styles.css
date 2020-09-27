@@ -28,7 +28,8 @@ section {
 
 .nav-link {
     margin-left: 20px;
-    margin-right: 20px
+    transition: all 0.2s;
+    /* margin-right: 20px */
 }
 
 .row {
