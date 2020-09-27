@@ -51,7 +51,7 @@
                         <a class="nav-link active js-scroll-trigger" href="#team">The Team</a>
                     </li>
                     <li>
-                        <a class="nav-link active js-scroll-trigger" href="#contact">Contact Us</a>
+                        <a class="nav-link active js-scroll-trigger" href="#contact">Schedule A Mock</a>
                     </li>
                 </ul>
             </div>
@@ -571,12 +571,25 @@
         <footer>
             <div class="text-align-center">
                 <div class="section-heading">
-                    Contact Us
+                    Schedule A Mock
                 </div>
             </div>
             <div class="text-align-center">
-                <h4>Schedule a mock with us today at: <a href="mailto:contactus@proxyprep.tech">contactus@proxyprep.tech</a></h4>
+                <div id="formSelectionDropdown" class="dropdown">
+                    <div class="btn-group">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Select Mock Category
+                          </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item">General</a>
+                            <a class="dropdown-item">EWS</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- <div class="text-align-center">
+                <h4>Schedule a mock with us today at: <a href="mailto:contactus@proxyprep.tech">contactus@proxyprep.tech</a></h4>
+            </div> -->
         </footer>
     </section>
 
@@ -646,25 +659,16 @@
                     });
                 }
             } catch (error) {
-                console.log(error);
+
             }
 
-
-            $(window).scroll(function() {
-                console.log($(document).scrollTop());
-                if ($(document).scrollTop() > 70) {
-                    $('#navbarLogo').width("30");
-                } else {
-                    $('#navbarLogo').width("50");
-                }
-            });
+            if ($(document).scrollTop() > 70) {
+                $('#navbarLogo').width("30");
+            } else {
+                $('#navbarLogo').width("50");
+            }
         });
     </script>
-
-    <script>
-    </script>
-
-
 </body>
 
 </html>

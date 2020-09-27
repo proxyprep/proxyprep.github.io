@@ -7,6 +7,7 @@ body {
 
 section.contact {
     background-color: lightgrey;
+    min-height: 300px;
 }
 
 a:hover {
@@ -68,6 +69,7 @@ section {
     font-size: 300%;
     font-weight: 700;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .profile-name {
@@ -347,3 +349,20 @@ section.pricing {
         opacity: 1;
     }
 } */
+
+.dropdown-menu {
+    cursor: pointer;
+    text-align: left;
+    /* background-color: rgb(5, 85, 117); */
+    /* background-color: rgb(3, 97, 97); */
+    outline: none;
+    border: none;
+    font-size: inherit;
+    font-weight: inherit;
+    /* text-align: center; */
+    /* float: right !important; */
+}
+
+.dropdown {
+    text-align: center;
+}

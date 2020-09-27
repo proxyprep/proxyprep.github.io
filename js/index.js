@@ -21,3 +21,17 @@
     });
 
 })(jQuery); // End of use strict
+
+$('.dropdown').on('show.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').slideDown();
+});
+
+$('.dropdown').on('hide.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').slideUp();
+});
+
+$('#formSelectionDropdown').on('change', function() {
+    console.log('f');
+    var selected = $(this).children('option:selected').val();
+    console.log(selected);
+})
