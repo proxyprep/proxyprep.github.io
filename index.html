@@ -608,9 +608,9 @@
     <script src="js/index.js"></script>
     <script>
         $(document).ready(function() {
-            $('#testimonialsCarousel').carousel({
-                interval: 3000
-            });
+            // $('#testimonialsCarousel').carousel({
+            //     interval: 3000
+            // });
 
             function isScrolledIntoView(elem) {
                 var docViewTop = $(window).scrollTop();
@@ -644,9 +644,8 @@
                 var docViewBottom = docViewTop + $(window).height();
 
                 var elemTop = $(elem).offset().top;
-                var elemBottom = elemTop + $(elem).height();
 
-                return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+                return (elemTop <= docViewBottom - 500);
             }
 
             try {
@@ -667,9 +666,17 @@
                 // do nothing
             }
 
+            if (isScrolledIntoView($('#testimonialsCarousel'))) {
+                $('#testimonialsCarousel').carousel({
+                    interval: 3000
+                })
+            } else {
+                $('#testimonialsCarousel').carousel('pause')
+            }
+
             if ($(document).scrollTop() > 70) {
-                $('#navbarLogo').width("30");
-                $('.nav-link').css('font-size', '80%');
+                $('#navbarLogo').width("40");
+                $('.nav-link').css('font-size', '85%');
             } else {
                 $('#navbarLogo').width("50");
                 $('.nav-link').css('font-size', '90%');
