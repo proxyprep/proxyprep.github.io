@@ -507,14 +507,6 @@
                 // do nothing
             }
 
-            if (isScrolledIntoView($('#testimonialsCarousel'))) {
-                $('#testimonialsCarousel').carousel({
-                    interval: 3000
-                })
-            } else {
-                $('#testimonialsCarousel').carousel('pause')
-            }
-
             if ($(document).scrollTop() > 70) {
                 $('#navbarLogo').width("40");
                 $('.nav-link').css('font-size', '85%');
