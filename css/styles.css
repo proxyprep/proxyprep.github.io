@@ -335,15 +335,6 @@ section.pricing {
     font-size: 150%;
 }
 
-
-/* .products .row {
-  padding-left: 25%;
-}
-
-.products .container {
-  padding-right: 15%;
-} */
-
 .products .card {
     display: flex;
     border: none;
