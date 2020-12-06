@@ -82,7 +82,7 @@ section {
 .profile-name {
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
-    font-size: 120%;
+    font-size: 180%;
 }
 
 .profile-college {
@@ -340,6 +340,10 @@ blockquote::before {
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.7);
 }
 
+.products .card-body {
+    text-align: center;
+}
+
 .products hr {
     margin: 1.5rem 0;
 }
@@ -429,3 +433,14 @@ section .testimonials {
 .dropdown {
     text-align: center;
 }
+
+.course-type {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 300%;
+    font-weight: 700;
+}
+
+
+/* .products .card-body .badge {
+    font-family: 'Fira Sans', sans-serif;
+} */
