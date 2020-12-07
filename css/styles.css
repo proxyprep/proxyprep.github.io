@@ -163,6 +163,20 @@ section {
     bottom: 500px;
 }
 
+@media screen and (min-width: 768px) {
+    .testimonial-card {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .testimonial-card {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     #welcomeText {
         margin-top: 200px;
