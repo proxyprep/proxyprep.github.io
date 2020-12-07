@@ -42,7 +42,7 @@ section {
 .nav-link {
     margin-left: 20px;
     transition: all 0.2s;
-    /* margin-right: 20px */
+    font-size: 90%;
 }
 
 .row {
@@ -463,4 +463,8 @@ section .testimonials {
 
 .product {
     padding: 10px;
+}
+
+.card-content {
+    font-size: 180%;
 }
