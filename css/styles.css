@@ -443,11 +443,10 @@ section .testimonials {
 
 .course-type {
     font-family: 'Bungee Shade', cursive;
-    font-size: 300%;
+    font-size: 250%;
     font-weight: 700;
 }
 
-
-/* .products .card-body .badge {
-    font-family: 'Fira Sans', sans-serif;
-} */
+.product {
+    padding: 10px;
+}
