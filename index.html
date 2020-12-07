@@ -525,16 +525,6 @@
     <script src="js/index.js"></script>
     <script>
         $(document).ready(function() {
-            function isScrolledIntoView(elem) {
-                var docViewTop = $(window).scrollTop();
-                var docViewBottom = docViewTop + $(window).height();
-
-                var elemTop = $(elem).offset().top;
-                var elemBottom = elemTop + $(elem).height();
-
-                return (elemTop <= docViewBottom);
-            }
-
             if (isScrolledIntoView($('#companiesCrawler'))) {
                 marqueeInit({
                     uniqueid: 'companiesCrawler',
@@ -552,15 +542,6 @@
     </script>
     <script type="text/javascript">
         $(window).scroll(function() {
-            function isScrolledIntoView(elem) {
-                var docViewTop = $(window).scrollTop();
-                var docViewBottom = docViewTop + $(window).height();
-
-                var elemTop = $(elem).offset().top;
-
-                return (elemTop <= docViewBottom - 500);
-            }
-
             try {
                 if (isScrolledIntoView($('#companiesCrawler'))) {
                     marqueeInit({

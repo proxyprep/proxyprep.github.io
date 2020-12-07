@@ -22,6 +22,16 @@
 
 })(jQuery); // End of use strict
 
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return (elemTop <= docViewBottom);
+}
+
 $('.dropdown').on('show.bs.dropdown', function() {
     $(this).find('.dropdown-menu').slideDown();
 });
