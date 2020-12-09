@@ -58,6 +58,10 @@ section {
     text-align: end;
 }
 
+.text-align-left {
+    text-align: start;
+}
+
 .text-align-center {
     text-align: center;
 }
@@ -95,6 +99,42 @@ section {
 .profile-college {
     font-size: 120%;
     margin-bottom: 10px;
+}
+
+.instructor {
+    padding: 30px;
+}
+
+.instructor-name {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-size: 220%;
+    padding-bottom: 20px;
+}
+
+.instructor-bio {
+    padding-bottom: 20px;
+}
+
+.instructor-desig {
+    font-size: 120%;
+}
+
+.instructor-company {
+    height: 30px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .instructor-data {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .instructor-data {
+        text-align: left;
+    }
 }
 
 .company {
@@ -455,16 +495,25 @@ section .testimonials {
     text-align: center;
 }
 
-.course-type {
-    font-family: 'Bungee Shade', cursive;
-    font-size: 230%;
-    font-weight: 700;
-}
-
 .product {
     padding: 10px;
 }
 
+.course-type {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 350%;
+    font-weight: 700;
+}
+
 .card-content {
-    font-size: 180%;
+    font-size: 150%;
+}
+
+@media screen and (max-width: 1199px) {
+    .course-type {
+        font-size: 250%;
+    }
+    .card-content {
+        font-size: 120%;
+    }
 }
