@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 /* Tags */
 
@@ -123,6 +123,10 @@ section {
 .instructor-company {
     height: 30px;
     margin: 10px;
+}
+
+.contact-heading {
+    border: hotpink 50px;
 }
 
 @media screen and (max-width: 991px) {
@@ -393,12 +397,12 @@ blockquote::before {
 
 .products .card {
     display: flex;
-    border: none;
+    /* border: none; */
     margin-right: 2%;
     border-radius: 1rem;
     transition: all 0.2s;
     opacity: 0.9;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.7);
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.7); */
 }
 
 .products .card-body {
@@ -452,6 +456,7 @@ blockquote::before {
         margin-top: -0.25rem;
         margin-bottom: 0.25rem;
         box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.7);
+        background-color: rgb(200, 232, 245)
     }
 }
 
@@ -500,9 +505,13 @@ section .testimonials {
 }
 
 .course-type {
-    font-family: 'Bungee Shade', cursive;
-    font-size: 350%;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 3px;
+    /* line-height: 75px; */
+    /* font-family: 'Bungee Shade', cursive; */
+    font-size: 300%;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .card-content {
@@ -511,7 +520,7 @@ section .testimonials {
 
 @media screen and (max-width: 1199px) {
     .course-type {
-        font-size: 250%;
+        font-size: 200%;
     }
     .card-content {
         font-size: 120%;
