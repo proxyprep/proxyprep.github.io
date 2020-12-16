@@ -554,3 +554,7 @@ section .testimonials {
 .course-level .content .accordion-item .btn {
     font-size: inherit;
 }
+
+.em-text {
+    font-size: 180% !important;
+}
