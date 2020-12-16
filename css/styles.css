@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 /* Tags */
 
@@ -531,4 +532,29 @@ section .testimonials {
     .card-content {
         font-size: 120%;
     }
+}
+
+.course-level .title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 250%;
+    text-align: center;
+}
+
+.course-level .content {
+    text-align: center;
+    font-size: 150%;
+}
+
+.course-level .content .content-list {
+    font-size: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.course-level .content .accordion-item {
+    margin-bottom: 10px;
+}
+
+.course-level .content .accordion-item .btn {
+    font-size: inherit;
 }
