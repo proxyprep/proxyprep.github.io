@@ -71,7 +71,7 @@ section {
 }
 
 .profile-content {
-	font-size: 120%;
+	font-size: 160%;
 }
 
 .feature-img {
@@ -79,7 +79,7 @@ section {
 }
 
 .profile-img {
-	width: 80%;
+	width: 40%;
 }
 
 .section-heading {
@@ -97,8 +97,9 @@ section {
 }
 
 .profile-college {
-	font-size: 120%;
+	font-size: 170%;
 	margin-bottom: 10px;
+	/* font-weight: bold; */
 }
 
 .instructor-name {
